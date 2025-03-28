@@ -6,5 +6,5 @@
 Es conveniente incluirlo porque hay muchas cosas que vamos a preferir no subir a nuestro repositorio, por ejemplo archivos con datos personales, claves de acceso o ejecutables.
 Se lo debe crear antes de que el archivo que quiero que sea ignorado se le haga commit.
 
-Con el comando: _git config --global core.excludesfile ~/.gitignore_global_ creo un archivo .gitignore global que puedo editar para que todos mis repositorios ignoren los archivos y carpetas incluidos aqui.
+Se incluye el archivo .gitignore en la carpeta root del repositorio y escribo en él lo que quiero que ignore. (Por ejemplo *.txt evita todos los archivos de extension txt)
 
